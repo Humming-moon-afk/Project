@@ -1,4 +1,4 @@
-const ANTEILE = 20;
+const ANTEILE = 15;
 const TICKER = 'SPY';
 const API_KEY = 'd8tdv29r01qhcnk225bgd8tdv29r01qhcnk225c0';
 

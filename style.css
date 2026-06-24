@@ -3,11 +3,10 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 40px;
-    color: #ffffff; /* Macht den Text standardmäßig weiß */
+    color: #ffffff; 
 }
-
 .sky-background {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0, 0, 0.6)),url('gif/sky.gif');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0, 0, 0.6)), url('gif/sky.gif');
     position: fixed;
     top: 0;
     left: 0;
@@ -16,40 +15,54 @@ body {
     background-size: cover;
     background-position: center;
     filter: brightness(0.4);
+    z-index: -1;
 }
 
 
 .welcome-box {
-   border: 1px solid rgba(255, 255, 255, 0.2);
-   border-radius: 10px;
-   background-color: rgba(255, 255, 255, 0.1);
-   backdrop-filter: blur(10px);
-padding: 40px;
-width: max-content;
-position: absolute;
-top: 20px;
-left: 20px;
-}
-.Weather {
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+    border-radius: 15px;      
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    padding: 40px;
-    width: max-content;
+    padding: 15px 25px;         
+    width: 180px;              
     position: absolute;
-    top: 200px; /* Platziert sie unter der Welcome-Box */
+    top: 20px;                  
     left: 20px;
 }
 
+
 .Depot {
     border: 1px solid rgba(255, 255, 255, 0.2);
-   border-radius: 10px;
-   background-color: rgba(255, 255, 255, 0.1);
-   backdrop-filter: blur(10px);
-padding: 40px;
-width: max-content;
-position: absolute;
-top: 20px;
-right: 20px;
+    border-radius: 15px;      
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 15px 25px;         
+    width: 180px;
+    position: absolute;
+    top: 110px;               
+    left: 20px;                
+}
+
+
+.Weather {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;       
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 15px 25px;         
+    width: 180px;
+    position: absolute;
+    top: 200px;                 
+    left: 20px;                 
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 0 0 5px 0;
+}
+
+p {
+    margin: 0;
+    font-size: 0.95rem;
 }
